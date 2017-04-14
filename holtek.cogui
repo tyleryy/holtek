@@ -24,6 +24,15 @@
 </folder>
 </info>
 </editorArea>
+<<<<<<< HEAD
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="datalink.c" partName="datalink.c" path="D:/works/coide_folder/holtek_1/datalink/datalink.c" title="datalink.c" tooltip="D:/works/coide_folder/holtek_1/datalink/datalink.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/modules/datalink/datalink.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="515" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/works/coide_folder/holtek_1/main.c" title="main.c" tooltip="D:/works/coide_folder/holtek_1/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="131" selectionTopPixel="0"/>
+=======
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="datalink.c" partName="datalink.c" path="D:/works/coide_folder/holtek_1/datalink/datalink.c" title="datalink.c" tooltip="D:/works/coide_folder/holtek_1/datalink/datalink.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/modules/datalink/datalink.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="672" selectionTopPixel="400"/>
@@ -31,6 +40,7 @@
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/works/coide_folder/holtek_1/main.c" title="main.c" tooltip="D:/works/coide_folder/holtek_1/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/main.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="91" selectionTopPixel="0"/>
+>>>>>>> master
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="datalink.h" partName="datalink.h" path="D:/works/coide_folder/holtek_1/datalink/datalink.h" title="datalink.h" tooltip="D:/works/coide_folder/holtek_1/datalink/datalink.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/modules/datalink/datalink.h"/>
@@ -40,9 +50,15 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/init/init.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="286" selectionTopPixel="0"/>
 </editor>
+<<<<<<< HEAD
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.c" partName="StreamParser.c" path="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.c" title="StreamParser.c" tooltip="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/lib/StreamParser.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5180" selectionTopPixel="5030"/>
+=======
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.c" partName="StreamParser.c" path="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.c" title="StreamParser.c" tooltip="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/lib/StreamParser.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5985" selectionTopPixel="3949"/>
+>>>>>>> master
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.h" partName="StreamParser.h" path="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.h" title="StreamParser.h" tooltip="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/holtek/lib/StreamParser.h"/>
@@ -64,9 +80,17 @@
 <element path="/holtek"/>
 <element path="/holtek/device"/>
 <element path="/holtek/lib"/>
+<<<<<<< HEAD
+<element path="/holtek/modules"/>
+<element path="/holtek/modules/datalink"/>
+</expanded>
+<selection>
+<element path="/holtek/modules/datalink/datalink.c"/>
+=======
 </expanded>
 <selection>
 <element path="/holtek/lib/StreamParser.c"/>
+>>>>>>> master
 </selection>
 </viewState>
 </view>
@@ -275,7 +299,10 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/D:/works/coide_folder/holtek_1/usart/usart.c"/>
+<<<<<<< HEAD
+=======
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/main.c"/>
+>>>>>>> master
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/device/usart/usart.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/stm_lib/src/stm32f10x_usart.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/device/usart/usart.c"/>
@@ -294,6 +321,15 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/device/usart/usart.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/modules/datalink/datalink.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/device/stdio/printf.c"/>
+<<<<<<< HEAD
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/holtek/modules/datalink/datalink.c"/>
+</editors>
+<item historyLabel="stm32f10x_usart.c" index="2">
+<position info="not_deleted" x="15130" y="14"/>
+</item>
+<item historyLabel="usart.c" index="1">
+=======
 </editors>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="104" y="0"/>
@@ -305,11 +341,155 @@
 <position info="not_deleted" x="15130" y="14"/>
 </item>
 <item historyLabel="usart.c" index="2">
+>>>>>>> master
 <position info="not_deleted" x="2789" y="0"/>
 </item>
 <item historyLabel="usart.c" index="0">
 <position info="not_deleted" x="7946" y="0"/>
 </item>
+<<<<<<< HEAD
+<item historyLabel="usart.c" index="1">
+<position info="not_deleted" x="2789" y="0"/>
+</item>
+<item historyLabel="usart.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="4">
+<position info="not_deleted" x="935" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="94" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="4">
+<position info="not_deleted" x="935" y="0"/>
+</item>
+<item historyLabel="usart.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="4">
+<position info="not_deleted" x="935" y="0"/>
+</item>
+<item historyLabel="datalink.h" index="6">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="94" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="4">
+<position info="not_deleted" x="935" y="0"/>
+</item>
+<item historyLabel="init.c" index="7">
+<position info="not_deleted" x="494" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="4">
+<position info="not_deleted" x="673" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="4149" y="18"/>
+</item>
+<item historyLabel="init.c" index="7">
+<position info="not_deleted" x="492" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="4">
+<position info="not_deleted" x="171" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="319" y="20"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="5273" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="4179" y="0"/>
+</item>
+<item historyLabel="StreamParser.h" index="9">
+<position info="not_deleted" x="1881" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="4179" y="0"/>
+</item>
+<item historyLabel="StreamParser.h" index="9">
+<position info="not_deleted" x="1939" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="5491" y="0"/>
+</item>
+<item historyLabel="StreamParser.h" index="9">
+<position info="not_deleted" x="1924" y="14"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="5617" y="0"/>
+</item>
+<item historyLabel="StreamParser.h" index="9">
+<position info="not_deleted" x="1924" y="14"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="5617" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="10">
+<position info="not_deleted" x="5441" y="62"/>
+</item>
+<item historyLabel="StreamParser.c" index="8">
+<position info="not_deleted" x="5617" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="11">
+<position info="not_deleted" x="5397" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="94" y="0"/>
+</item>
+<item historyLabel="init.c" index="13">
+<position info="not_deleted" x="492" y="0"/>
+</item>
+<item historyLabel="init.c" index="13">
+<position info="not_deleted" x="121" y="16"/>
+</item>
+<item historyLabel="datalink.c" index="14">
+<position info="not_deleted" x="171" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="15">
+<position info="not_deleted" x="5617" y="0"/>
+</item>
+<item historyLabel="usart.c" index="16">
+<position info="not_deleted" x="1200" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="15">
+<position info="not_deleted" x="5774" y="0"/>
+</item>
+<item historyLabel="datalink.h" index="17">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="14">
+<position info="not_deleted" x="531" y="0"/>
+</item>
+<item historyLabel="init.c" index="13">
+<position info="not_deleted" x="286" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="14">
+<position info="not_deleted" x="672" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="15">
+<position info="not_deleted" x="5031" y="0"/>
+</item>
+<item historyLabel="printf.c" index="18">
+<position info="not_deleted" x="10717" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="14">
+<position info="not_deleted" x="672" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="15">
+<position info="not_deleted" x="5031" y="0"/>
+</item>
+<item historyLabel="main.c" index="19">
+<position info="not_deleted" x="91" y="0"/>
+</item>
+<item active="true" historyLabel="datalink.c" index="20">
+<position info="not_deleted" x="672" y="0"/>
+</item>
+=======
 <item historyLabel="usart.c" index="2">
 <position info="not_deleted" x="2789" y="0"/>
 </item>
@@ -445,6 +625,7 @@
 <item active="true" historyLabel="StreamParser.c" index="16">
 <position info="not_deleted" x="5031" y="0"/>
 </item>
+>>>>>>> master
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -452,6 +633,33 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<<<<<<< HEAD
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" tooltip="holtek/stm_lib/src/stm32f10x_gpio.c">
+<persistable path="/holtek/stm_lib/src/stm32f10x_gpio.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="holtek/stm_lib/inc/stm32f10x_gpio.h">
+<persistable path="/holtek/stm_lib/inc/stm32f10x_gpio.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.h" tooltip="holtek/lib/StreamParser.h">
+<persistable path="/holtek/lib/StreamParser.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.h" tooltip="holtek/device/usart/usart.h">
+<persistable path="/holtek/device/usart/usart.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.c" tooltip="holtek/device/usart/usart.c">
+<persistable path="/holtek/device/usart/usart.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="playvoice.c" tooltip="holtek/modules/playvoice/playvoice.c">
+<persistable path="/holtek/modules/playvoice/playvoice.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="protocol.c" tooltip="holtek/lib/protocol.c">
+<persistable path="/holtek/lib/protocol.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="protocol.h" tooltip="holtek/lib/protocol.h">
+<persistable path="/holtek/lib/protocol.h"/>
+</file>
+=======
+>>>>>>> master
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" tooltip="holtek/device/stdio/printf.c">
 <persistable path="/holtek/device/stdio/printf.c"/>
 </file>
@@ -471,6 +679,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.h" tooltip="holtek/stream_parser/StreamParser.h">
 <persistable path="/holtek/stream_parser/StreamParser.h"/>
 </file>
+<<<<<<< HEAD
+=======
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.c" tooltip="holtek/stream_parser/StreamParser.c">
 <persistable path="/holtek/stream_parser/StreamParser.c"/>
 </file>
@@ -495,6 +705,7 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="datalink.c" tooltip="holtek/modules/datalink/datalink.c">
 <persistable path="/holtek/modules/datalink/datalink.c"/>
 </file>
+>>>>>>> master
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.c" tooltip="holtek/device/usart/usart.c">
 <persistable path="/holtek/device/usart/usart.c"/>
 </file>

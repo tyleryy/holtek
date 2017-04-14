@@ -80,16 +80,26 @@
   </Components>
   <Files>
     <File name="device/usart" path="" type="2"/>
+<<<<<<< HEAD
+    <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
+    <File name="init" path="" type="2"/>
+=======
     <File name="init" path="" type="2"/>
     <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
+>>>>>>> master
     <File name="modules/playvoice/playvoice.c" path="playvoice/playvoice.c" type="1"/>
     <File name="stm_lib/inc/misc.h" path="stm_lib/inc/misc.h" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
     <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
     <File name="modules/datalink/datalink.h" path="datalink/datalink.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
+<<<<<<< HEAD
+    <File name="device/stdio" path="" type="2"/>
+    <File name="init/init.c" path="init/init.c" type="1"/>
+=======
     <File name="init/init.c" path="init/init.c" type="1"/>
     <File name="device/stdio" path="" type="2"/>
+>>>>>>> master
     <File name="stm_lib/src/stm32f10x_rcc.c" path="stm_lib/src/stm32f10x_rcc.c" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="modules/playvoice" path="" type="2"/>
@@ -118,8 +128,13 @@
     <File name="stm_lib/inc" path="" type="2"/>
     <File name="stm_lib/inc/stm32f10x_gpio.h" path="stm_lib/inc/stm32f10x_gpio.h" type="1"/>
     <File name="lib" path="" type="2"/>
+<<<<<<< HEAD
+    <File name="modules/playvoice/playvoice.h" path="playvoice/playvoice.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+=======
     <File name="main.c" path="main.c" type="1"/>
     <File name="modules/playvoice/playvoice.h" path="playvoice/playvoice.h" type="1"/>
+>>>>>>> master
     <File name="stm_lib/inc/stm32f10x_usart.h" path="stm_lib/inc/stm32f10x_usart.h" type="1"/>
   </Files>
 </Project>
