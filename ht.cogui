@@ -13,13 +13,59 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/works/git/ht/main.c" title="main.c" tooltip="D:/works/git/ht/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/works/coide_folder/holtek_1/main.c" title="main.c" tooltip="D:/works/coide_folder/holtek_1/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="131" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="744" selectionTopPixel="201"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.c" partName="StreamParser.c" path="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.c" title="StreamParser.c" tooltip="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/stream_parser/StreamParser.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3182" selectionTopPixel="2001"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usart.c" partName="usart.c" path="D:/works/coide_folder/holtek_1/usart/usart.c" title="usart.c" tooltip="D:/works/coide_folder/holtek_1/usart/usart.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/driver/usart.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7346" selectionTopPixel="4977"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="datalink.c" partName="datalink.c" path="D:/works/coide_folder/holtek_1/datalink/datalink.c" title="datalink.c" tooltip="D:/works/coide_folder/holtek_1/datalink/datalink.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/module/datalink.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="76" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="datalink.h" partName="datalink.h" path="D:/works/coide_folder/holtek_1/datalink/datalink.h" title="datalink.h" tooltip="D:/works/coide_folder/holtek_1/datalink/datalink.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/module/datalink.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="209" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init.c" partName="init.c" path="D:/works/coide_folder/holtek_1/init/init.c" title="init.c" tooltip="D:/works/coide_folder/holtek_1/init/init.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/module/init.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="121" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.h" partName="StreamParser.h" path="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.h" title="StreamParser.h" tooltip="D:/works/coide_folder/holtek_1/stream_parser/StreamParser.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/stream_parser/StreamParser.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1958" selectionTopPixel="684"/>
+</editor>
+<editor id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
+<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">
+<subPage horizontalPosition="0" selectedItemId="0" subPageIndex="2" verticalPosition="0"/>
+</input>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" partName="stm32f10x.h" path="D:/works/coide_folder/holtek_1/cmsis_boot/stm32f10x.h" title="stm32f10x.h" tooltip="D:/works/coide_folder/holtek_1/cmsis_boot/stm32f10x.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/cmsis_boot/stm32f10x.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="37313" selectionTopPixel="11040"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" partName="printf.c" path="D:/works/coide_folder/holtek_1/stdio/printf.c" title="printf.c" tooltip="D:/works/coide_folder/holtek_1/stdio/printf.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ht/stdio/printf.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="10707" selectionTopPixel="7228"/>
 </editor>
 </editors>
 <views>
@@ -27,14 +73,13 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
 <expanded>
 <element path="/ht"/>
-<element path="/ht/cmsis"/>
-<element path="/ht/cmsis_boot"/>
-<element path="/ht/cmsis_boot/startup"/>
+<element path="/ht/module"/>
 <element path="/ht/stm_lib"/>
 <element path="/ht/stm_lib/inc"/>
+<element path="/ht/stream_parser"/>
 </expanded>
 <selection>
-<element path="/ht/main.c"/>
+<element path="/ht/module/datalink.c"/>
 </selection>
 </viewState>
 </view>
@@ -50,6 +95,7 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
+<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view" partName="Disassembly"/>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
@@ -90,19 +136,35 @@
 <hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
-<view id="org.coocox.component.ui.ComponentView"/>
-<view id="org.coocox.builder.ui.views.ProjectView"/>
-<view id="org.coocox.component.ui.Help"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1469385" orientation="512" selectedTabId="org.coocox.component.ui.Help" style="1">
+<fastViews>
+<view id="org.coocox.component.ui.Help" ratio="0.3"/>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@7d1722" orientation="256" selectedTabId="org.coocox.component.ui.ComponentView" style="1">
+<fastViews>
+<view id="org.coocox.component.ui.ComponentView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@ca294b" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@79cfff" orientation="512" selectedTabId="org.coocox.builder.ui.views.ProjectView" style="1">
+<fastViews>
+<view id="org.coocox.builder.ui.views.ProjectView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@7d1722">
-<folder activePageID="org.coocox.component.ui.ComponentView" appearance="2" expanded="2">
-<page content="org.coocox.component.ui.ComponentView" label="Components"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.coocox.component.ui.ComponentView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@7d1722">
@@ -111,34 +173,34 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.console.ConsoleView" ratio="0.7" ratioLeft="672" ratioRight="288" relationship="4" relative="org.eclipse.ui.internal.ViewStack@7d1722"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@ca294b" ratio="0.7" ratioLeft="672" ratioRight="288" relationship="4" relative="org.eclipse.ui.internal.ViewStack@7d1722">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
 <info part="org.coocox.builder.ui.exampleView" ratio="0.21966527" ratioLeft="420" ratioRight="1492" relationship="2" relative="org.eclipse.ui.internal.ViewStack@7d1722"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1469385" ratio="0.71983916" ratioLeft="1074" ratioRight="418" relationship="2" relative="org.coocox.builder.ui.exampleView">
-<folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
-<page content="org.coocox.component.ui.Help" label="Help"/>
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="0">
+<page content="org.coocox.component.ui.Help" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
 <page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.45" ratioLeft="432" ratioRight="528" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@79cfff" ratio="0.36979166" ratioLeft="355" ratioRight="605" relationship="4" relative="org.eclipse.ui.internal.ViewStack@7d1722">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.coocox.builder.ui.views.ProjectView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.codebugger.configuration.ui.Perspective" id="org.coocox.codebugger.configuration.perspective" label="CoDebugger"/>
 <alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -180,46 +242,68 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
 <hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
-<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
 <hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.debug.ui.DebugView"/>
-<view id="org.coocox.codebugger.trace.ui.traceview"/>
-<view id="org.eclipse.debug.ui.VariableView"/>
-<view id="org.coocox.builder.ui.views.ProjectView"/>
-<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@142fc59" orientation="256" selectedTabId="org.eclipse.cdt.dsf.debug.ui.disassembly.view" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view" ratio="0.3"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@5fa6d9" orientation="256" selectedTabId="org.coocox.codebugger.trace.ui.traceview" style="1">
+<fastViews>
+<view id="org.coocox.codebugger.trace.ui.traceview" ratio="0.3"/>
+<view id="org.eclipse.debug.ui.VariableView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@142fc59" orientation="256" selectedTabId="org.eclipse.cdt.dsf.debug.ui.disassembly.view" style="0">
+<fastViews>
+<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@1c90c4c" orientation="256" selectedTabId="org.eclipse.debug.ui.DebugView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+<view id="org.eclipse.debug.ui.DebugView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@c57855" orientation="512" selectedTabId="org.coocox.builder.ui.views.ProjectView" style="1">
+<fastViews>
+<view id="org.coocox.builder.ui.views.ProjectView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
 <viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@c57855">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-</presentation>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@c57855">
+<folder appearance="2" expanded="0">
+<page content="org.coocox.builder.ui.views.ProjectView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c57855">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c57855">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c90c4c" ratio="0.7" ratioLeft="672" ratioRight="288" relationship="4" relative="org.eclipse.ui.internal.ViewStack@c57855">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c90c4c" ratio="0.7" ratioLeft="672" ratioRight="288" relationship="4" relative="org.eclipse.ui.internal.ViewStack@c57855">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5fa6d9" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c90c4c">&#x0A;<folder activePageID="org.coocox.codebugger.trace.ui.traceview" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5fa6d9" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c90c4c">
+<folder appearance="2" expanded="0">
+<page content="org.coocox.codebugger.trace.ui.traceview" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@142fc59" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c57855">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@142fc59" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c57855">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
@@ -235,16 +319,164 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ht/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ht/stream_parser/StreamParser.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ht/module/datalink.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ht/stream_parser/StreamParser.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ht/stdio/printf.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ht/cmsis_boot/stm32f10x.h"/>
 <editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage/>
+<subPage horizontalPosition="0" selectedItemId="0" subPageIndex="2" verticalPosition="0"/>
 </editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ht/module/init.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ht/module/datalink.h"/>
 </editors>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="1608" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="1687" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="1643" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1379" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1408" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1500" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1588" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1384" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="3182" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="3211" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="1528" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="1547" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="1608" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="1687" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="1643" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1379" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1408" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1500" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1588" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="1384" y="0"/>
+</item>
+<item historyLabel="StreamParser.c" index="1">
+<position info="not_deleted" x="3182" y="0"/>
+</item>
 <item historyLabel="main.c" index="0">
+<position info="not_deleted" x="745" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="680" y="8"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="680" y="8"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="277" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="893" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="277" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="720" y="39"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="787" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="718" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="385" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="164" y="10"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="387" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="164" y="10"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="388" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="743" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="788" y="0"/>
+</item>
+<item historyLabel="StreamParser.h" index="3">
+<position info="not_deleted" x="1945" y="9"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="676" y="25"/>
+</item>
+<item historyLabel="printf.c" index="4">
+<position info="not_deleted" x="10707" y="6"/>
+</item>
+<item historyLabel="stm32f10x.h" index="5">
+<position info="not_deleted" x="37313" y="0"/>
+</item>
+<item historyLabel="Repository" index="6"/>
+<item historyLabel="init.c" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Repository" index="1"/>
-<item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="122" y="0"/>
+<item historyLabel="datalink.h" index="8">
+<position info="not_deleted" x="209" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="288" y="0"/>
+</item>
+<item historyLabel="init.c" index="7">
+<position info="not_deleted" x="121" y="16"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="744" y="0"/>
+</item>
+<item historyLabel="datalink.c" index="2">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item active="true" historyLabel="StreamParser.h" index="3">
+<position info="not_deleted" x="1980" y="21"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -256,48 +488,50 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" tooltip="ht/stdio/printf.c">
 <persistable path="/ht/stdio/printf.c"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" tooltip="ht/cmsis_boot/stm32f10x.h">
+<persistable path="/ht/cmsis_boot/stm32f10x.h"/>
+</file>
 <file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
-<persistable>&#x0A;<subPage/>
+<persistable>
+<subPage horizontalPosition="0" selectedItemId="0" subPageIndex="2" verticalPosition="0"/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.h" tooltip="ht/stream_parser/StreamParser.h">
+<persistable path="/ht/stream_parser/StreamParser.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="init.c" tooltip="ht/module/init.c">
+<persistable path="/ht/module/init.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="ht/stm_lib/inc/stm32f10x_gpio.h">
+<persistable path="/ht/stm_lib/inc/stm32f10x_gpio.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="datalink.h" tooltip="ht/module/datalink.h">
+<persistable path="/ht/module/datalink.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="datalink.c" tooltip="ht/module/datalink.c">
+<persistable path="/ht/module/datalink.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.c" tooltip="ht/driver/usart.c">
+<persistable path="/ht/driver/usart.c"/>
+</file>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
+<persistable>
+<org.coocox.builder.ui.editors.ConfigEditor/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.c" tooltip="ht/stream_parser/StreamParser.c">
+<persistable path="/ht/stream_parser/StreamParser.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="ht/main.c">
+<persistable path="/ht/main.c"/>
+</file>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
+<persistable>
+<org.coocox.welcome.ui.WelcomePage/>
 </persistable>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_conf.h" tooltip="ht/cmsis_boot/stm32f10x_conf.h">
 <persistable path="/ht/cmsis_boot/stm32f10x_conf.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" tooltip="holtek/stm_lib/src/stm32f10x_gpio.c">
-<persistable path="/holtek/stm_lib/src/stm32f10x_gpio.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="holtek/stm_lib/inc/stm32f10x_gpio.h">
-<persistable path="/holtek/stm_lib/inc/stm32f10x_gpio.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.h" tooltip="holtek/lib/StreamParser.h">
-<persistable path="/holtek/lib/StreamParser.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.h" tooltip="holtek/device/usart/usart.h">
-<persistable path="/holtek/device/usart/usart.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.c" tooltip="holtek/device/usart/usart.c">
-<persistable path="/holtek/device/usart/usart.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="playvoice.c" tooltip="holtek/modules/playvoice/playvoice.c">
-<persistable path="/holtek/modules/playvoice/playvoice.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="protocol.c" tooltip="holtek/lib/protocol.c">
-<persistable path="/holtek/lib/protocol.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="protocol.h" tooltip="holtek/lib/protocol.h">
-<persistable path="/holtek/lib/protocol.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" tooltip="holtek/device/stdio/printf.c">
-<persistable path="/holtek/device/stdio/printf.c"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StreamParser.c" tooltip="D:\works\coide_folder\holtek_1\stream_parser\StreamParser.c">
-<persistable uri="file:/D:/works/coide_folder/holtek_1/stream_parser/StreamParser.c"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.c" tooltip="D:\works\coide_folder\holtek_1\usart\usart.c">
-<persistable uri="file:/D:/works/coide_folder/holtek_1/usart/usart.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" tooltip="holtek/stdio/printf.c">
-<persistable path="/holtek/stdio/printf.c"/>
 </file>
 </mruList>
 </workbench>

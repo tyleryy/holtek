@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project version="2G - 1.7.8" name="holtek">
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project version="2G - 1.7.8" name="holtek">
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project version="2G - 1.7.8" name="holtek">
-  <Target name="holtek" isCurrent="1">
+<Project version="2G - 1.7.8" name="ht">
+  <Target name="ht" isCurrent="1">
     <Device manufacturerId="9" manufacturerName="ST" chipId="311" chipName="STM32F103RC" boardId="" boardName=""/>
     <BuildOption>
       <Compile>
@@ -15,7 +10,6 @@
         <Option name="SupportCPlusplus" value="0"/>
         <Includepaths>
           <Includepath path="."/>
-          <Includepath path="usart"/>
         </Includepaths>
         <DefinedSymbols>
           <Define name="STM32F103RC"/>
@@ -39,12 +33,12 @@
           <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
           <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
         </MemoryAreas>
-        <LocateLinkFile path="../../../applications/coide/configuration/programdata/holtek/arm-gcc-link.ld" type="0"/>
+        <LocateLinkFile path="../../../applications/coide/configuration/programdata/ht/arm-gcc-link.ld" type="0"/>
       </Link>
       <Output>
         <Option name="OutputFileType" value="0"/>
         <Option name="Path" value="./"/>
-        <Option name="Name" value="holtek"/>
+        <Option name="Name" value="ht"/>
         <Option name="HEX" value="1"/>
         <Option name="BIN" value="1"/>
       </Output>
@@ -81,109 +75,48 @@
     <Component id="444" name="GPIO" path="" type="2"/>
     <Component id="458" name="USART" path="" type="2"/>
     <Component id="460" name="CMSIS Boot" path="" type="2"/>
-    <Component id="467" name="MISC" path="" type="2"/>
+    <Component id="492" name="Misc" path="" type="2"/>
   </Components>
   <Files>
-    <File name="device/usart" path="" type="2"/>
-<<<<<<< HEAD
     <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
-    <File name="init" path="" type="2"/>
-=======
-    <File name="init" path="" type="2"/>
-    <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
->>>>>>> master
-    <File name="modules/playvoice/playvoice.c" path="playvoice/playvoice.c" type="1"/>
     <File name="stm_lib/inc/misc.h" path="stm_lib/inc/misc.h" type="1"/>
+    <File name="stdio" path="" type="2"/>
+    <File name="module/init.c" path="init/init.c" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
     <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
-    <File name="modules/datalink/datalink.h" path="datalink/datalink.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
-<<<<<<< HEAD
-    <File name="device/stdio" path="" type="2"/>
-    <File name="init/init.c" path="init/init.c" type="1"/>
-=======
-    <File name="init/init.c" path="init/init.c" type="1"/>
-    <File name="device/stdio" path="" type="2"/>
->>>>>>> master
     <File name="stm_lib/src/stm32f10x_rcc.c" path="stm_lib/src/stm32f10x_rcc.c" type="1"/>
+    <File name="module/playvoice.c" path="playvoice/playvoice.c" type="1"/>
+    <File name="module" path="" type="2"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
-    <File name="modules/playvoice" path="" type="2"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="module/datalink.h" path="datalink/datalink.h" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f10x_hd.c" path="cmsis_boot/startup/startup_stm32f10x_hd.c" type="1"/>
     <File name="stm_lib/src/misc.c" path="stm_lib/src/misc.c" type="1"/>
     <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
     <File name="cmsis_boot/stm32f10x_conf.h" path="cmsis_boot/stm32f10x_conf.h" type="1"/>
-    <File name="init/init.h" path="init/init.h" type="1"/>
-    <File name="device/usart/usart.c" path="usart/usart.c" type="1"/>
-    <File name="lib/StreamParser.h" path="stream_parser/StreamParser.h" type="1"/>
+    <File name="driver/nvic.h" path="nvic/nvic.h" type="1"/>
     <File name="stm_lib/src" path="" type="2"/>
     <File name="cmsis" path="" type="2"/>
-    <File name="modules" path="" type="2"/>
     <File name="stm_lib" path="" type="2"/>
+    <File name="module/datalink.c" path="datalink/datalink.c" type="1"/>
+    <File name="stream_parser/StreamParser.c" path="stream_parser/StreamParser.c" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.h" path="cmsis_boot/system_stm32f10x.h" type="1"/>
-    <File name="modules/datalink" path="" type="2"/>
+    <File name="driver/usart.h" path="usart/usart.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_rcc.h" path="stm_lib/inc/stm32f10x_rcc.h" type="1"/>
-    <File name="modules/datalink/datalink.c" path="datalink/datalink.c" type="1"/>
-    <File name="device/usart/usart.h" path="usart/usart.h" type="1"/>
+    <File name="driver" path="" type="2"/>
+    <File name="module/init.h" path="init/init.h" type="1"/>
+    <File name="stream_parser" path="" type="2"/>
     <File name="stm_lib/src/stm32f10x_usart.c" path="stm_lib/src/stm32f10x_usart.c" type="1"/>
-    <File name="lib/StreamParser.c" path="stream_parser/StreamParser.c" type="1"/>
-    <File name="device/stdio/printf.c" path="stdio/printf.c" type="1"/>
-    <File name="device" path="" type="2"/>
+    <File name="stdio/printf.c" path="stdio/printf.c" type="1"/>
+    <File name="driver/nvic.c" path="nvic/nvic.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_gpio.c" path="stm_lib/src/stm32f10x_gpio.c" type="1"/>
+    <File name="module/playvoice.h" path="playvoice/playvoice.h" type="1"/>
     <File name="stm_lib/inc" path="" type="2"/>
     <File name="stm_lib/inc/stm32f10x_gpio.h" path="stm_lib/inc/stm32f10x_gpio.h" type="1"/>
-    <File name="lib" path="" type="2"/>
-<<<<<<< HEAD
-    <File name="modules/playvoice/playvoice.h" path="playvoice/playvoice.h" type="1"/>
+    <File name="driver/usart.c" path="usart/usart.c" type="1"/>
     <File name="main.c" path="main.c" type="1"/>
-=======
-    <File name="main.c" path="main.c" type="1"/>
-    <File name="modules/playvoice/playvoice.h" path="playvoice/playvoice.h" type="1"/>
->>>>>>> master
     <File name="stm_lib/inc/stm32f10x_usart.h" path="stm_lib/inc/stm32f10x_usart.h" type="1"/>
+    <File name="stream_parser/StreamParser.h" path="stream_parser/StreamParser.h" type="1"/>
   </Files>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project version="2G" name="Target">
-  <Target name="Target" isCurrent="1">
-    <Device manufacturerId="" manufacturerName="" chipId="" chipName="" boardId="" boardName=""/>
-    <BuildOption>
-      <Compile>
-        <Option name="OptimizationLevel" value="0"/>
-        <Option name="UseFPU" value="0"/>
-        <Option name="UserEditCompiler" value=""/>
-        <Option name="SupportCPlusplus" value="0"/>
-        <Includepaths>
-          <Includepath path="."/>
-        </Includepaths>
-        <DefinedSymbols/>
-      </Compile>
-      <Link useDefault="0">
-        <Option name="DiscardUnusedSection" value="0"/>
-        <Option name="UserEditLinkder" value=""/>
-        <Option name="UseMemoryLayout" value="1"/>
-        <Option name="nostartfiles" value="1"/>
-        <LinkedLibraries/>
-        <MemoryAreas debugInFlashNotRAM="1">
-          <Memory name="IROM1" type="ReadOnly" size="0x00040000" startValue="0x00000000"/>
-          <Memory name="IRAM1" type="ReadWrite" size="0x00010000" startValue="0x20000000"/>
-        </MemoryAreas>
-        <LocateLinkFile path="link.ld" type="0"/>
-      </Link>
-      <Output>
-        <Option name="OutputFileType" value="0"/>
-        <Option name="Path" value=""/>
-        <Option name="Name" value=""/>
-        <Option name="HEX" value="1"/>
-        <Option name="BIN" value="1"/>
-      </Output>
-      <User>
-        <UserRun name="Run#1" type="Before" checked="0" value=""/>
-        <UserRun name="Run#1" type="After" checked="0" value=""/>
-      </User>
-    </BuildOption>
-    <DebugOption/>
-    <ExcludeFile/>
-  </Target>
-  <Components path="./"/>
-  <Files/>
 </Project>
