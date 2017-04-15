@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=ht.map -O0 --gc-sections -LD:\Applications\CoIDE\configuration\ProgramData\ht -TD:\Applications\CoIDE\configuration\ProgramData\ht/arm-gcc-link.ld -g">
+      <target file="ht.elf" lastModified="15b6f8fb67e">
+         <source file="..\obj\system_stm32f10x.o" lastModified="15b6f8fab25"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="15b6f8fab94"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15b6f8fac3a"/>
+         <source file="..\obj\main.o" lastModified="15b6f8fac91"/>
+         <source file="..\obj\init.o" lastModified="15b6f8fad01"/>
+         <source file="..\obj\playvoice.o" lastModified="15b6f8fad5d"/>
+         <source file="..\obj\printf.o" lastModified="15b6f8fadf9"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15b6f8fae8f"/>
+         <source file="..\obj\StreamParser.o" lastModified="15b6f8faf22"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15b6f8fafc8"/>
+         <source file="..\obj\datalink.o" lastModified="15b6f8fb042"/>
+         <source file="..\obj\nvic.o" lastModified="15b6f8fb0a3"/>
+         <source file="..\obj\misc.o" lastModified="15b6f8fb15f"/>
+         <source file="..\obj\usart.o" lastModified="15b6f8fb1eb"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 6.1.0 x86_64-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RC -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\works\git\ht2\playvoice -I..\..\..\..\..\works\git\ht2\init -I..\..\..\..\..\works\git\ht2\usart -I..\..\..\..\..\works\git -I..\..\..\..\..\works\git\ht2\stm_lib\inc -I..\..\..\..\..\works\git\ht2\stm_lib -I..\..\..\..\..\works\git\ht2\datalink -I..\..\..\..\..\works\git\ht2\stream_parser -I..\..\..\..\..\works\git\ht2 -I..\..\..\..\..\works\git\ht2\cmsis_boot -I..\..\..\..\..\works\git\ht2\nvic -I..\..\..\..\..\works\git\ht2\cmsis">
+      <target file="startup_stm32f10x_hd.o" lastModified="15b6f8fab94">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="15b6f6517cb"/>
+      </target>
+      <target file="StreamParser.o" lastModified="15b6f8faf22">
+         <source file="..\..\..\stream_parser\StreamParser.c" lastModified="15b6f651961"/>
+      </target>
+      <target file="datalink.o" lastModified="15b6f8fb042">
+         <source file="..\..\..\datalink\datalink.c" lastModified="15b6f6517df"/>
+      </target>
+      <target file="printf.o" lastModified="15b6f8fadf9">
+         <source file="..\..\..\stdio\printf.c" lastModified="15b6f651817"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15b6f8fab25">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15b6f6517da"/>
+      </target>
+      <target file="playvoice.o" lastModified="15b6f8fad5d">
+         <source file="..\..\..\playvoice\playvoice.c" lastModified="15b6f651810"/>
+      </target>
+      <target file="init.o" lastModified="15b6f8fad01">
+         <source file="..\..\..\init\init.c" lastModified="15b6f651805"/>
+      </target>
+      <target file="main.o" lastModified="15b6f8fac91">
+         <source file="..\..\..\main.c" lastModified="15b6f65180b"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="15b6f8fafc8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15b6f6518fe"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15b6f8fac3a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15b6f6518f4"/>
+      </target>
+      <target file="nvic.o" lastModified="15b6f8fb0a3">
+         <source file="..\..\..\nvic\nvic.c" lastModified="15b6f65180c"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="15b6f8fae8f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15b6f6518fa"/>
+      </target>
+      <target file="usart.o" lastModified="15b6f8fb1eb">
+         <source file="..\..\..\usart\usart.c" lastModified="15b6f651968"/>
+      </target>
+      <target file="misc.o" lastModified="15b6f8fb15f">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15b6f65187f"/>
+      </target>
+   </processor>
+</history>
