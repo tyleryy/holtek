@@ -1,2 +1,0 @@
-# holtek
-holtek competition programme
