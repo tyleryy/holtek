@@ -4,7 +4,7 @@
 #include "datalink/datalink.h"
 #include "stdio.h"
 
-//#define MAINDEBUG
+#define MAINDEBUG
 
 #ifdef MAINDEBUG
 #define main_debug(fmt, ...)  printf(fmt, ##__VA_ARGS__)
@@ -28,7 +28,6 @@ int main(void)
 		attention2 = 0;
 		if ((signal1 > 0) && (signal2 > 0))
 		{
-			main_debug("signal1<%d>signal2<%d>\n", signal1, signal2);
 			play_voice(POOR_SINGAL);
 		}
 		else if ((signal1 == 0) && (signal2 == 0))
@@ -36,10 +35,11 @@ int main(void)
 			play_voice(GAME_START);
 			attention1 = get_data(ATTENTION1);
 			attention2 = get_data(ATTENTION2);
-			main_debug("attention1:<%d>attention2:<%d>\n",
-					attention1, attention2);
 		}
 		send_value(attention1, attention2);
+
+		main_debug("signal1:<%d>signal2:<%d>attention1:<%d>attention2:<%d>\n",
+				signal1, signal2, attention1, attention2);
 
 		for (i = 0; i < 0xffff; i++)
 		{
